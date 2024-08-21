@@ -5,8 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muhammad Daffa Al Ghifary</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
     <nav>
         <div class="name">
             <a href=""><h4>Muhammad Daffa Al Ghifary</h4></a>
@@ -14,14 +20,14 @@
 
         <div class="menu">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Projects</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#aboutme">About</a></li>
+                <li><a href="#projects">Projects</a></li>
             </ul>
         </div>
     </nav>
 
-    <div class="profile">
+    <div class="profile" data-aos="fade-up">
         <div class="myname">
             <h2>Hello world, Iam</h2>
             <h1 style="font-size: 42px;">Muhammad Daffa Al Ghifary</h1>
@@ -30,28 +36,28 @@
                 technological inovation, That is me</h4>
 
             <div class="media">
-                <div class="social-media">
-                    <img src="./img/fiverr.png" alt="">
-                    <img src="./img/icons8-github-50.png" alt="">
-                    <img src="./img/IG.png" alt="" style="background-color: none;">
-                    <img src="./img/youtube-app-white-icon.png" alt="">
+                <div class="social-media" style="margin-bottom: 3vh;">
+                    <a href="#"><img src="./img/fiverr.png" alt=""></a>
+                    <a href="https://github.com/alghifarydaffa62" target="_blank"><img src="./img/icons8-github-50.png" alt=""></a>
+                    <a href="https://www.instagram.com/df_webdev?igsh=MWNyYWZ4cnNoeTZjdg==" target="_blank"><img src="./img/IG.png" alt="" style="background-color: none;"></a>
+                    <a href=""><img src="./img/youtube-app-white-icon.png" alt=""></a>
                 </div>
-    
-                <div class="button">
-                    Know more
-                </div>
+                
+                <div class="button"><a href="#aboutme" 
+                    style="text-decoration: none; font-size: 18px;">Know More</a></div>
+                
             </div>
             
         </div>
 
-        <div class="myimage">
+        <div class="myimage" >
             <img src="./img/DSC_3631 copy.jpg" alt="">
         </div>
         
     </div>
 
-    <div class="aboutme">
-        <div class="about-text">
+    <div class="aboutme" id="aboutme">
+        <div class="about-text" data-aos="fade-up">
             <div class="title">
                 <h1>About Me</h1>
                 <div class="line"></div>
@@ -79,23 +85,23 @@
         
         <div class="tech-logo">
             <div class="row1">
-                <div class="img1">
+                <div class="img1" data-aos="fade-down">
                     <img src="./img/html.png" alt="">
                     <h3>HTML</h3>
                 </div>
-                <div class="img1">
+                <div class="img1" data-aos="fade-down">
                     <img src="./img/css-3.png" alt="">
                     <h3>CSS</h3>
                 </div>
-                <div class="img1">
+                <div class="img1" data-aos="fade-down">
                     <img src="./img/js.png" alt="">
                     <h3>Javascript</h3>
                 </div>
-                <div class="img1">
+                <div class="img1" data-aos="fade-down">
                     <img src="./img/bootstrap.png" alt="">
                     <h3>Bootstrap</h3>
                 </div>
-                <div class="img1">
+                <div class="img1" data-aos="fade-down">
                     <img src="./img/figma.png" alt="">
                     <h3>FIGMA</h3>
                 </div>
@@ -103,19 +109,19 @@
                 
             </div>
             <div class="row2">
-                <div class="img1">
+                <div class="img1" data-aos="fade-down">
                     <img src="./img/C_Logo.png" alt="">
                     <h3>C++</h3>
                 </div>
-                <div class="img1">
+                <div class="img1" data-aos="fade-down">
                     <img src="./img/React-icon.svg.png" alt="">
                     <h3>React JS</h3>
                 </div>
-                <div class="img1">
+                <div class="img1" data-aos="fade-down">
                     <img src="./img/php.png" alt="">
                     <h3>PHP</h3>
                 </div>
-                <div class="img1">
+                <div class="img1" data-aos="fade-down">
                     <img src="./img/C_Logo.png" alt="">
                     <h3>C</h3>
                 </div>
@@ -123,61 +129,111 @@
         </div>
     </div>
 
-    <div class="projects">
+    <div class="projects" id="projects">
         <div class="title">
             <h1>My Projects</h1>
             <div class="line"></div>
         </div>
 
         <div class="project-row">
-            <img src="./img/project 1.png" alt="">
-            <div class="desc">
+            <img src="./img/project 1.png" alt="" data-aos="fade-right" >
+            <div class="desc" data-aos="fade-left">
                 <h2>Smanisda Cup Aetheria 2023</h3>
-                <h3>Team Project</h3>
-                <p style="margin-top: 8vh;">An annual event held by the student council of SMA Negeri<br>1 Sidoarjo.
+                <h3 style="color: #c64bd8;">Team Project</h3>
+                <p style="margin-bottom: 5vh; margin-top: 5vh;">An annual event held by the student council of SMA Negeri<br>1 Sidoarjo.
                     In this project i act as the team leader<br>
                     and lead the communication with the student council,<br>web design and code.
                 </p>
+                <div class="button"><a href="https://scaetheria23.github.io/SC23/" 
+                    style="text-decoration: none; font-size: 18px;" target="_blank">Visit Site</a></div>
+                
             </div>
         </div>
+
         <div class="project-row">
-            <div class="desc" style="text-align: right;">
+            <div class="desc" style="text-align: right;" data-aos="fade-right">
                 <h2>My Wonderful Indonesia (Mondsia)</h2>
-                <h3>Team Project</h3>
-                <p style="margin-top: 8vh;">A website about indonesian culture in 6 major island.<br>
+                <h3 style="color: #c64bd8;">Team Project</h3>
+                <p style="margin-top: 5vh; margin-bottom: 5vh;">A website about indonesian culture in 6 major island.<br>
                 Java, Kalimantan, Bali, Sumatra, Papua, and Sulawesi.<br>This website is focusing about how to maintain<br>indonesian culture using the advance technolgy</p>
+                
+                <div class="button"><a href="https://alghifarydaffa62.github.io/P5-MONDSIA/"
+                     style="text-decoration: none; font-size: 18px;" target="_blank">Visit Site</a></div>
             </div>
-            <img src="./img/project2.png" alt="">
+            <img src="./img/project2.png" alt="" data-aos="fade-left">
         </div>
+
         <div class="project-row">
-            <img src="./img/project3.png" alt="">
-            <div class="desc">
+            <img src="./img/project3.png" alt="" data-aos="fade-right">
+            <div class="desc" data-aos="fade-left">
                 <h2>SDGS Website | Life Below Water</h2>
-                <h3>Individual Project</h3>
-                <p style="margin-top: 8vh;">A website about one of the SDGS topic, Life Below Water.<br>
+                <h3 style="color: #c64bd8;">Individual Project</h3>
+                <p style="margin-top: 5vh; margin-bottom: 5vh;">A website about one of the SDGS topic, Life Below Water.<br>
                 In this project i make this website for a competition of<br>web design in 2023</p>
+                <div class="button"><a href="https://alghifarydaffa62.github.io/SEFEST/" 
+                    style="text-decoration: none; font-size: 18px;" target="_blank">Visit Site</a></div>
             </div>
         </div>
+
         <div class="project-row">
-            <div class="desc" style="text-align: right;">
+            <div class="desc" style="text-align: right;" data-aos="fade-right">
                 <h2>UI Design Movie Website</h2>
-                <h3>Individual Project</h3>
-                <p style="margin-top: 8vh;">This project is "fresh" because i spend my free time<br>
+                <h3 style="color: #c64bd8;">Individual Project</h3>
+                <p style="margin-top: 5vh;">This project is "fresh" because i spend my free time<br>
                 before entering college to working on this UI project.<br>This project is just a UI design about a movie website</p>
             </div>
-            <img src="./img/project4.jpeg" alt="">
+            <img src="./img/project4.jpeg" alt="" data-aos="fade-left">
         </div>
+
         <div class="project-row">
-            <img src="./img/prjoject5.jpeg" alt="">
-            <div class="desc">
+            <img src="./img/project5.png" alt="" data-aos="fade-right">
+            <div class="desc" data-aos="fade-left">
                 <h2>Mobile app UI design | Brand-in Aja</h2>
-                <h3>Team Project</h3>
-                <p style="margin-top: 8vh;">This project is a competition of UI design. My team sadly<br>
+                <h3 style="color: #c64bd8;">Team Project</h3>
+                <p style="margin-top: 5vh;">This project is a competition of UI design. My team sadly<br>
                     didn't win the competition but iam proud we reach this far.<br>
                 Oh yeah, this competition is held by HIMIT PENS in 2022.<br>The Competition
                 name is IT Creation 2022</p>
             </div>
         </div>
+
+        <div class="project-row">
+            <div class="desc" style="text-align: right;" data-aos="fade-right">
+                <h2>Portfolio Website</h2>
+                <h3 style="color: #c64bd8;">Individual Project</h3>
+                <p style="margin-top: 5vh; margin-bottom: 5vh;">
+                    This is my latest portfolio website that<br>i make and i build this website in 2 days
+                    <br>with HTML,CSS,Javascript
+
+                </p>
+                <div class="button"><a href="index.html"
+                    style="text-decoration: none; font-size: 18px;" target="_blank">Visit Site</a></div>
+            </div>
+            <img src="./img/project6.png" alt="" data-aos="fade-left">
+        </div>
+
+        <div class="project-row">
+            <img src="./img/project7.png" alt="" data-aos="fade-right">
+            <div class="desc" data-aos="fade-left">
+                <h2>UI Design | SolidaryFood</h2>
+                <h3 style="color: #c64bd8;">Individual Project</h3>
+                <p style="margin-top: 5vh;">
+                    SolidaryFood is a website that providing some<br>food for Covid-19 
+                    patients who are in hospital<br>and for health workers.
+                </p>
+            </div>
+        </div>
+
     </div>
+    <div class="end" style="text-align: center; margin-top: 12vh;" >
+        <h1>Interested to work with me ? Hit my email</h1>
+        <h1 style="margin-top: 1vh;" >daffa.alghifary62@gmail.com</h1>
+    </div>
+    
+    <!-- <div class="footer">
+        <div class="col1">
+            <H</H1>
+        </div>
+    </div> -->
 </body>
 </html>

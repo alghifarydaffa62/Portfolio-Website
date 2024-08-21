@@ -4,6 +4,7 @@
     color: white;
     background-color: #161616;
     font-family: monospace;
+    scroll-behavior: smooth;
 }
 nav {
     display: flex;
@@ -15,6 +16,10 @@ nav {
 .name a {
     text-decoration: none;
     font-size: 20px;
+    transition: 0.2s;
+}
+.menu a:hover {
+    color: #C600E4;
 }
 .menu {
     display: flex;
@@ -35,14 +40,16 @@ nav {
     gap: 10rem;
     margin-top: 10vh;
 }
-.button {
+.button a {
     box-sizing: border-box;
-    padding: 8px 8px;
+    padding:8px 25px;
     background-color: #C600E4;
-    width: 30%;
     text-align: center;
     border-radius: 5px;
-    margin-top: 2vh;
+    margin-top: 10vh;
+}
+.button a:hover {
+    filter: drop-shadow(2px 2px 3px #ffffff);
 }
 .myimage img {
     width: 50vh;
@@ -99,15 +106,9 @@ nav {
     margin-top: 7vh;
     gap: 3rem;
 }
-.img1 {
-    transition: 0.4s;
-}
 .img1 h3{
     text-align: center;
     margin-top: 2vh;
-}
-.img1:hover {
-    margin-bottom: 5vh;
 }
 .projects {
     margin: 12vh 13vw;
@@ -115,8 +116,9 @@ nav {
 .project-row {
     display: flex;
     justify-content: center;
-    gap: 3rem;
+    gap: 4rem;
     margin-top: 12vh;
+    align-items: center;
 }
 .project-row img {
     width: 30vw;
