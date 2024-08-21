@@ -297,7 +297,7 @@ nav {
         margin-top: 2vh;
     }
     .end h1 {
-        font-size: 18px;
+        font-size: 14px;
     }
     .footer-row {
         display: block;
@@ -307,5 +307,8 @@ nav {
     }
     .project-row1 img {
         width: 50vw;
+    }
+    .about-text p {
+        font-size: 13px;
     }
 }
