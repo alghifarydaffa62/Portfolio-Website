@@ -257,7 +257,7 @@ nav {
         font-size: 13px;
     }
     .myimage img {
-        width: 55vw;
+        width: 60vw;
     }
     .social-media {
         justify-content: center;
@@ -267,7 +267,7 @@ nav {
         text-align: center;
     }
     .tech img {
-        width: 6vw;
+        width: 10vw;
         height: 8vh;
     }
     .img1 {
@@ -289,11 +289,11 @@ nav {
         margin-top: 2vh;
     }
     .desc1 p {
-        font-size: 11px;
+        font-size: 10px;
         margin-top: 2vh;
     }
     .desc p {
-        font-size: 11px;
+        font-size: 10px;
         margin-top: 2vh;
     }
     .end h1 {
@@ -303,10 +303,10 @@ nav {
         display: block;
     }
     .project-row img {
-        width: 50vw;
+        width: 70vw;
     }
     .project-row1 img {
-        width: 50vw;
+        width: 70vw;
     }
     .about-text p {
         font-size: 13px;
