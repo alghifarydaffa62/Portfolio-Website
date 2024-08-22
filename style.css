@@ -203,6 +203,80 @@ nav {
     }
 }
 @media screen and (max-width: 900px) {
+    .profile {
+        flex-direction: column-reverse;
+        gap: 5rem;
+        text-align: center;
+    }
+    .myimage img {
+        width: 60vw;
+    }
+    .myname h4 {
+        font-size: 21px;
+    }
+    .social-media {
+        justify-content: center;
+    }
+    .row1, .row2 {
+        display: block;
+        text-align: center;
+    }
+    .tech img {
+        width: 10vw;
+        height: 8vh;
+    }
+    .img1 {
+        margin-bottom: 3vh;
+    }
+    .project-row {
+        display: block;
+        text-align: center;
+    }
+    .project-row1 {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .desc {
+        text-align: center;
+    }
+    .desc1 {
+        text-align: center;
+        margin-top: 2vh;
+    }
+    .desc1 p {
+        font-size: 18px;
+        margin-top: 2vh;
+    }
+    .desc1 h2 {
+        font-size: 27px;
+    }
+    .desc1 h3 {
+        font-size: 23px;
+    }
+    .desc p {
+        font-size: 18px;
+        margin-top: 2vh;
+    }
+    .desc h2 {
+        font-size: 27px;
+    }
+    .desc h3 {
+        font-size: 23px;
+    }
+    .footer-row {
+        display: block;
+    }
+    .project-row img {
+        width: 70vw;
+    }
+    .project-row1 img {
+        width: 70vw;
+    }
+    .about-text p {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 450px) {
     .hamburger {
         display: block;
         cursor: pointer;
@@ -239,47 +313,14 @@ nav {
     .menu ul li a {
         margin-bottom: 50px;
     }
-    .profile {
-        flex-direction: column-reverse;
-        gap: 5rem;
-    }
-    .profile {
-        margin-left: 30px;
-        text-align: center;
+    .myname h4 {
+        font-size: 13px;
     }
     .myname h2 {
         font-size: 15px;
     }
     .myname h1 {
         font-size: 20px;
-    }
-    .myname h4 {
-        font-size: 13px;
-    }
-    .myimage img {
-        width: 60vw;
-    }
-    .social-media {
-        justify-content: center;
-    }
-    .row1, .row2 {
-        display: block;
-        text-align: center;
-    }
-    .tech img {
-        width: 10vw;
-        height: 8vh;
-    }
-    .img1 {
-        margin-bottom: 3vh;
-    }
-    .project-row {
-        display: block;
-        text-align: center;
-    }
-    .project-row1 {
-        flex-direction: column-reverse;
-        text-align: center;
     }
     .desc {
         text-align: center;
@@ -292,23 +333,26 @@ nav {
         font-size: 10px;
         margin-top: 2vh;
     }
+    .desc1 h2 {
+        font-size: 15px;
+    }
+    .desc1 h3 {
+        font-size: 14px;
+    }
     .desc p {
         font-size: 10px;
         margin-top: 2vh;
     }
-    .end h1 {
+    .desc h2 {
+        font-size: 15px;
+    }
+    .desc h3 {
         font-size: 14px;
     }
-    .footer-row {
-        display: block;
-    }
-    .project-row img {
-        width: 70vw;
-    }
-    .project-row1 img {
-        width: 70vw;
-    }
     .about-text p {
-        font-size: 13px;
+        font-size: 15px;
+    }
+    .end h1 {
+        font-size: 16px;
     }
 }
