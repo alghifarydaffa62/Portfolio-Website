@@ -100,16 +100,12 @@ nav {
     font-size: 17px;
     margin-top: 2vh;
 }
-.tech {
-    margin-top: 10vh;
-}
 .tech img {
-    width: 7vw;
-    height: 12vh;
+    width: 5vw;
+    height: vh;
     transition: 0.2s;
     cursor: pointer;
 }
-
 .row1 {
     display: flex;
     align-items: center;
