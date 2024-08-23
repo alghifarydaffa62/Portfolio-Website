@@ -1,5 +1,8 @@
-hamburger = document.querySelector(".hamburger");
-hamburger.onclick = function () {
-    navbar = document.querySelector(".menu");
-    navbar.classlist.toggle("active");
-}
+document.addEventListener("DOMContentLoaded", function() {
+    const hamburger = document.querySelector(".hamburger");
+    hamburger.onclick = function () {
+        const navbar = document.querySelector(".nav-bar");
+        navbar.classList.toggle("active");
+        console.log("Navbar toggled");
+    }
+});
