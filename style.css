@@ -31,6 +31,10 @@ header {
     font-size: 17px;
     margin-top: 3vh;
 }
+.myname h4 {
+    font-size: 17px;
+    margin-top: 3vh;
+}
 .name a {
     text-decoration: none;
     font-size: 20px;
@@ -82,9 +86,9 @@ header {
     gap: 9px;
 }
 .social-media img {
-    width: 30px;
-    height: 30px;
-    padding: 12px 12px;
+    width: 40px;
+    height: 40px;
+    padding: 7px 7px;
     background-color: #262626;
     border-radius: 5px;
 }
@@ -182,8 +186,8 @@ header {
     margin-top: 20vh;
 }
 .social-footer img {
-    width: 24px;
-    height: 24px;
+    width: 50px;
+    height: 44px;
     padding: 9px 9px;
     background-color: #262626;
     border-radius: 5px;
@@ -254,28 +258,28 @@ header {
     .desc {
         text-align: center;
     }
-    .desc1 {
-        text-align: center;
-        margin-top: 2vh;
-    }
-    .desc1 p {
-        font-size: 10px;
-        margin-top: 2vh;
-    }
-    .desc1 h2 {
-        font-size: 15px;
-    }
-    .desc1 h3 {
-        font-size: 14px;
-    }
     .desc p {
-        font-size: 10px;
+        font-size: 9px;
         margin-top: 2vh;
     }
     .desc h2 {
         font-size: 15px;
     }
     .desc h3 {
+        font-size: 14px;
+    }
+    .desc1 {
+        text-align: center;
+        margin-top: 2vh;
+    }
+    .desc1 p {
+        font-size: 9px;
+        margin-top: 2vh;
+    }
+    .desc1 h2 {
+        font-size: 15px;
+    }
+    .desc1 h3 {
         font-size: 14px;
     }
     .about-text p {
@@ -294,10 +298,6 @@ header {
     }
     .social-media {
         justify-content: center;
-    }
-    .social-media img {
-        width: 50px;
-        height: 50px;
     }
     .row1, .row2 {
         display: block;
@@ -326,5 +326,9 @@ header {
     }
     .project-row1 img {
         width: 70vw;
+    }
+    .social-footer img {
+        width: 50px;
+        height: 50px;
     }
 }
